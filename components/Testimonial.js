@@ -1,9 +1,33 @@
 import React from "react";
 
 function Testimonial() {
+  const playAudio = () => {
+    const audioEl = document.getElementsByClassName("audio-element")[0];
+    audioEl.play();
+  };
+
+  const pauseAudio = () => {
+    const audioEl = document.getElementsByClassName("audio-element")[0];
+    audioEl.pause();
+  };
+
+  const playAudiofemale = () => {
+    const audioElfemale = document.getElementsByClassName(
+      "audio-element-female"
+    )[0];
+    audioElfemale.play();
+  };
+
+  const pauseAudiofemale = () => {
+    const audioElfemale = document.getElementsByClassName(
+      "audio-element-female"
+    )[0];
+    audioElfemale.pause();
+  };
+
   return (
     <section className="text-gray-600 body-font">
-      <div className="container px-5 py-8 mx-auto">
+      <div className="container px-2 py-8 mx-auto">
         <h1 className="text-3xl font-medium title-font text-gray-900 mb-12 text-center">
           Testimonials Data Example
         </h1>
@@ -24,18 +48,39 @@ function Testimonial() {
                 with team and support is brilliant. Thank you for awesome
                 service.
               </p>
-              <a className="inline-flex items-center">
-                <img
-                  alt="testimonial"
-                  src="/avatar/1.jpg"
-                  className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
-                />
-                <span className="flex-grow flex flex-col pl-4">
-                  <span className="title-font font-medium text-gray-900">
-                    Lance Jarvis{" "}
+              <a className="md:flex items-center justify-between sm:flex-row">
+                <div className="inline-flex items-center">
+                  <img
+                    alt="testimonial"
+                    src="/avatar/1.jpg"
+                    className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
+                  />
+                  <span className="flex-grow flex flex-col pl-4">
+                    <span className="title-font font-medium text-gray-900">
+                      Lance Jarvis{" "}
+                    </span>
+                    <span className="text-gray-500 text-sm">
+                      GENERAL MANAGER
+                    </span>
                   </span>
-                  <span className="text-gray-500 text-sm">GENERAL MANAGER</span>
-                </span>
+                </div>
+                <div className="mt-5 md:mt-0">
+                  <button
+                    onClick={playAudio}
+                    className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+                  >
+                    PLAY
+                  </button>
+                  <audio className="audio-element">
+                    <source src="/audio/1.mp3"></source>
+                  </audio>
+                  <button
+                    onClick={pauseAudio}
+                    className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 mx-2 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+                  >
+                    PAUSE
+                  </button>
+                </div>
               </a>
             </div>
           </div>
@@ -54,20 +99,39 @@ function Testimonial() {
                 create anything you envision and it does it so easy and
                 flawless. I can't imagine not working with the service.
               </p>
-              <a className="inline-flex items-center">
-                <img
-                  alt="testimonial"
-                  src="/avatar/2.jpg"
-                  className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
-                />
-                <span className="flex-grow flex flex-col pl-4">
-                  <span className="title-font font-medium text-gray-900">
-                    Juliet Wright{" "}
+              <a className="md:flex items-center justify-between sm:flex-row">
+                <div className="inline-flex items-center">
+                  <img
+                    alt="testimonial"
+                    src="/avatar/2.jpg"
+                    className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
+                  />
+                  <span className="flex-grow flex flex-col pl-4">
+                    <span className="title-font font-medium text-gray-900">
+                      Juliet Wright{" "}
+                    </span>
+                    <span className="text-gray-500 text-sm">
+                      TECHNICAL WRITER{" "}
+                    </span>
                   </span>
-                  <span className="text-gray-500 text-sm">
-                    TECHNICAL WRITER
-                  </span>
-                </span>
+                </div>
+                <div className="mt-5 md:mt-0">
+                  <button
+                    onClick={playAudiofemale}
+                    className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+                  >
+                    PLAY
+                  </button>
+                  <audio className="audio-element-female">
+                    <source src="/audio/2.mp3"></source>
+                  </audio>
+                  <button
+                    onClick={pauseAudiofemale}
+                    className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 mx-2 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+                  >
+                    PAUSE
+                  </button>
+                </div>
               </a>
             </div>
           </div>

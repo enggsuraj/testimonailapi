@@ -4,7 +4,7 @@ import Link from "next/link";
 function EntireJSON() {
   return (
     <section className="text-gray-600 body-font">
-      <div className="container py-6 mx-auto">
+      <div className="container py-4 mx-auto">
         <div className="text-center mb-6">
           <h1 className="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-4">
             Entire JSON API{" "}
@@ -26,7 +26,7 @@ function EntireJSON() {
                   <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
                   <path d="M22 4L12 14.01l-3-3"></path>
                 </svg>
-                <span className="title-font font-medium">
+                <span className="title-font font-medium text-sm	md:text-lg">
                   GET https://testimonial.toolcarton/api{" "}
                 </span>
               </div>
@@ -47,7 +47,7 @@ function EntireJSON() {
                   <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
                   <path d="M22 4L12 14.01l-3-3"></path>
                 </svg>
-                <span className="title-font font-medium">
+                <span className="title-font font-medium text-sm	md:text-lg">
                   GET https://testimonial.toolcarton/api/1{" "}
                 </span>
               </div>
@@ -68,7 +68,7 @@ function EntireJSON() {
                   <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
                   <path d="M22 4L12 14.01l-3-3"></path>
                 </svg>
-                <span className="title-font font-medium">
+                <span className="title-font font-medium text-sm	md:text-lg">
                   GET https://testimonial.toolcarton/api/2{" "}
                 </span>
               </div>
@@ -81,16 +81,16 @@ function EntireJSON() {
                 <svg
                   fill="none"
                   stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="3"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="3"
                   className="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4"
                   viewBox="0 0 24 24"
                 >
                   <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
                   <path d="M22 4L12 14.01l-3-3"></path>
                 </svg>
-                <span className="title-font font-medium">
+                <span className="title-font font-medium text-sm	md:text-lg">
                   GET https://testimonial.toolcarton/api/3{" "}
                 </span>
               </div>
@@ -112,7 +112,7 @@ function EntireJSON() {
                   <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
                   <path d="M22 4L12 14.01l-3-3"></path>
                 </svg>
-                <span className="title-font font-medium">
+                <span className="title-font font-medium text-sm	md:text-lg">
                   {" "}
                   GET https://testimonial.toolcarton/api/4{" "}
                 </span>
@@ -135,7 +135,7 @@ function EntireJSON() {
                   <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
                   <path d="M22 4L12 14.01l-3-3"></path>
                 </svg>
-                <span className="title-font font-medium">
+                <span className="title-font font-medium text-sm	md:text-lg">
                   GET https://testimonial.toolcarton/api/5{" "}
                 </span>
               </div>
@@ -157,7 +157,7 @@ function EntireJSON() {
                   <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
                   <path d="M22 4L12 14.01l-3-3"></path>
                 </svg>
-                <span className="title-font font-medium">
+                <span className="title-font font-medium text-sm	md:text-lg">
                   GET https://testimonial.toolcarton/api/6{" "}
                 </span>
               </div>
@@ -179,7 +179,7 @@ function EntireJSON() {
                   <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
                   <path d="M22 4L12 14.01l-3-3"></path>
                 </svg>
-                <span className="title-font font-medium">
+                <span className="title-font font-medium text-sm	md:text-lg">
                   GET https://testimonial.toolcarton/api/7{" "}
                 </span>
               </div>
@@ -201,7 +201,7 @@ function EntireJSON() {
                   <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
                   <path d="M22 4L12 14.01l-3-3"></path>
                 </svg>
-                <span className="title-font font-medium">
+                <span className="title-font font-medium text-sm	md:text-lg">
                   GET https://testimonial.toolcarton/api/8{" "}
                 </span>
               </div>
@@ -223,7 +223,7 @@ function EntireJSON() {
                   <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
                   <path d="M22 4L12 14.01l-3-3"></path>
                 </svg>
-                <span className="title-font font-medium">
+                <span className="title-font font-medium text-sm	md:text-lg">
                   GET https://testimonial.toolcarton/api/9{" "}
                 </span>
               </div>
@@ -245,7 +245,7 @@ function EntireJSON() {
                   <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
                   <path d="M22 4L12 14.01l-3-3"></path>
                 </svg>
-                <span className="title-font font-medium">
+                <span className="title-font font-medium text-sm	md:text-lg">
                   GET https://testimonial.toolcarton/api/10{" "}
                 </span>
               </div>

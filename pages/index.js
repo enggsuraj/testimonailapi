@@ -82,7 +82,7 @@ export default function Home() {
       </Head>
 
       <Header />
-      <div className="md:w-4/6 sm:w-full mx-auto p-6">
+      <div className="md:w-4/6 sm:w-full mx-auto p-4">
         <About />
         <Service />
         <Introduction />

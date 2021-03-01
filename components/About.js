@@ -6,16 +6,16 @@ function About() {
       <div className="container flex md:flex-row flex-col items-center ">
         <div className="lg:flex-grow flex flex-col md:items-start mb-16 md:mb-0 sm:text-center md:text-left">
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900 ">
-            Get list of random user
+            Get list of random user&nbsp;
             <span className="text-indigo-700 inline-block">
               Testimonial data.
             </span>
           </h1>
           <p className="mb-8 leading-relaxed">
-            Tired of copy and pasting users testimonial from google, don't worry
-            try testimonial API to get dummy testimonial data that incudes user
-            id, name, location, designation, avatar, message, loremtext and
-            rating.
+            Tired of copy and pasting lorem user's testimonial text which
+            doesn't give the feel of authenticity, don't worry try testimonial
+            API to get dummy testimonial data that includes user id, name,
+            location, designation, avatar, message and rating .
           </p>
           <div className="flex justify-center">
             <a href="/api">
