@@ -10,6 +10,7 @@ const testimonailData = [
     lorem:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non fringilla leo. Phasellus dui erat, ultrices sollicitudin ante quis, convallis varius odio. Quisque sed tristique ante.",
     rating: 4.8,
+    audio: "/audio/1.mp3",
   },
   {
     id: 2,
@@ -22,6 +23,7 @@ const testimonailData = [
     lorem:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non fringilla leo. Phasellus dui erat, ultrices sollicitudin ante quis, convallis varius odio. Quisque sed tristique ante.",
     rating: 4.4,
+    audio: "/audio/2.mp3",
   },
   {
     id: 3,
@@ -34,6 +36,7 @@ const testimonailData = [
     lorem:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non fringilla leo. Phasellus dui erat, ultrices sollicitudin ante quis, convallis varius odio. Quisque sed tristique ante.",
     rating: 4.5,
+    audio: "/audio/3.mp3",
   },
   {
     id: 4,
@@ -46,6 +49,7 @@ const testimonailData = [
     lorem:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non fringilla leo. Phasellus dui erat, ultrices sollicitudin ante quis, convallis varius odio. Quisque sed tristique ante.",
     rating: 5,
+    audio: "/audio/4.mp3",
   },
   {
     id: 5,
@@ -58,6 +62,7 @@ const testimonailData = [
     lorem:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non fringilla leo. Phasellus dui erat, ultrices sollicitudin ante quis, convallis varius odio. Quisque sed tristique ante.",
     rating: 4.5,
+    audio: "/audio/5.mp3",
   },
   {
     id: 6,
@@ -70,6 +75,7 @@ const testimonailData = [
     lorem:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non fringilla leo. Phasellus dui erat, ultrices sollicitudin ante quis, convallis varius odio. Quisque sed tristique ante.",
     rating: 4.7,
+    audio: "/audio/6.mp3",
   },
   {
     id: 7,
@@ -78,10 +84,11 @@ const testimonailData = [
     designation: "Manager",
     avatar: "http://localhost:3000/avatar/7.jpg",
     message:
-      "Love your stuff, the quality has been incredible year after year. I tell everyone I know that they have to try the product. Thank you to the team my whole my new reader are thrilled my new work.",
+      "Love your stuff, the quality has been incredible year after year. I tell everyone I know that they have to try the product. Thank you to the team the whole team.",
     lorem:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non fringilla leo. Phasellus dui erat, ultrices sollicitudin ante quis, convallis varius odio. Quisque sed tristique ante.",
     rating: 4.7,
+    audio: "/audio/7.mp3",
   },
   {
     id: 8,
@@ -94,6 +101,7 @@ const testimonailData = [
     lorem:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non fringilla leo. Phasellus dui erat, ultrices sollicitudin ante quis, convallis varius odio. Quisque sed tristique ante.",
     rating: 4.8,
+    audio: "/audio/8.mp3",
   },
   {
     id: 9,
@@ -106,6 +114,7 @@ const testimonailData = [
     lorem:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non fringilla leo. Phasellus dui erat, ultrices sollicitudin ante quis, convallis varius odio. Quisque sed tristique ante.",
     rating: 4.1,
+    audio: "/audio/9.mp3",
   },
   {
     id: 10,
@@ -118,6 +127,7 @@ const testimonailData = [
     lorem:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non fringilla leo. Phasellus dui erat, ultrices sollicitudin ante quis, convallis varius odio. Quisque sed tristique ante.",
     rating: 4.9,
+    audio: "/audio/10.mp3",
   },
 ];
 
