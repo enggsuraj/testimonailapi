@@ -66,7 +66,7 @@ function Service() {
                   24/7 uptime{" "}
                 </h1>
                 <p className="leading-relaxed">
-                  Fast response time in your developement phases.
+                  Fast response time in your testing and developement phases.
                 </p>
               </div>
             </div>
