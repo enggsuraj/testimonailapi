@@ -1,5 +1,3 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
 ## testimonialapi
 
 ![Badges-Embeds-Product-Hunt](https://user-images.githubusercontent.com/6918020/110662722-c78aeb80-81eb-11eb-981b-2900c8fa21aa.png)
