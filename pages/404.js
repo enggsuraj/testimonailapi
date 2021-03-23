@@ -4,7 +4,7 @@ function Page404() {
   return (
     <>
       <Head>
-        <title>testimonialapi</title>
+        <title>testimonialapi 404 Page</title>
         <meta name="description" content="Error 404 Page " />
       </Head>
 

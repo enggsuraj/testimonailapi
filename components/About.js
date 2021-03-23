@@ -29,7 +29,7 @@ function About() {
           <img
             className="object-contain object-center rounded mx-auto w-96"
             alt="dev"
-            src="/img/dev2.svg"
+            src="/img/dev.svg"
           />
         </div>
       </div>

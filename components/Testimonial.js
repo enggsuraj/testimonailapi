@@ -59,7 +59,7 @@ function Testimonial() {
                     <span className="title-font font-medium text-gray-900">
                       Lance Jarvis{" "}
                     </span>
-                    <span className="text-gray-500 text-sm">
+                    <span className="text-gray-500 text-xs">
                       GENERAL MANAGER
                     </span>
                   </span>
@@ -110,7 +110,7 @@ function Testimonial() {
                     <span className="title-font font-medium text-gray-900">
                       Juliet Wright{" "}
                     </span>
-                    <span className="text-gray-500 text-sm">
+                    <span className="text-gray-500 text-xs">
                       TECHNICAL WRITER{" "}
                     </span>
                   </span>

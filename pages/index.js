@@ -1,16 +1,17 @@
 import Head from "next/head";
+
 import About from "../components/About";
 import Coffee from "../components/Coffee";
-import DifferentJSON from "../components/DifferentJSON";
-import EntireJSON from "../components/EntireJSON";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
-import Introduction from "../components/Introduction";
+import Service from "../components/Service";
 import Message from "../components/Message";
 import Response from "../components/Response";
-import Service from "../components/Service";
+import EntireJSON from "../components/EntireJSON";
 import SingleUser from "../components/SingleUser";
 import Testimonial from "../components/Testimonial";
+import Introduction from "../components/Introduction";
+import DifferentJSON from "../components/DifferentJSON";
 
 export default function Home() {
   return (
@@ -19,6 +20,9 @@ export default function Home() {
         <title>
           testimonialapi - A public list of free user customer testimonials API
         </title>
+
+        {/* SEO */}
+
         <meta
           name="title"
           content="testimonialapi - A public list of free user customer testimonials API."
@@ -37,8 +41,6 @@ export default function Home() {
         <meta name="author" content="blogtheorem" />
         <link rel="canonical" href="testimonialapi.toolcarton.com" />
         <link rel="icon" type="image/png" sizes="16x16" href="/img/logo.svg" />
-
-        {"<-------Facebook------->"}
 
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="en_US"></meta>
@@ -60,8 +62,6 @@ export default function Home() {
           content="https://testimonialapi.toolcarton.com/img/banner.png"
         />
 
-        {"<-------Twitter------->"}
-
         <meta property="twitter:card" content="summary_large_image" />
         <meta
           property="twitter:url"
@@ -80,6 +80,8 @@ export default function Home() {
           content="https://testimonialapi.toolcarton.com/img/banner.png"
         />
       </Head>
+
+      {/*  MAIN CODE PAGE */}
 
       <Header />
       <div className="md:w-4/6 sm:w-full mx-auto p-4">

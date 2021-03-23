@@ -2,6 +2,7 @@
 import nc from "next-connect";
 import data from "../../data/data.";
 
+//GET RESPECTIVE ID
 const getTestimonials = (id) => data.find((n) => n.id === parseInt(id));
 
 const handler = nc().get((req, res) => {

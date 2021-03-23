@@ -1,5 +1,4 @@
-import React, { useEffect } from "react";
-import Prism from "prismjs";
+import React from "react";
 
 function DifferentJSON() {
   return (
@@ -17,7 +16,7 @@ function DifferentJSON() {
                 Javascript{" "}
               </h2>
 
-              <img src="/img/code1.png" alt="image" />
+              <img src="/img/code1.png" alt="code-1 image" />
             </div>
           </div>
           <div className="xl:w-1/2 md:w-1/2 p-2">
@@ -25,7 +24,7 @@ function DifferentJSON() {
               <h2 className="text-lg text-gray-900 font-medium title-font mb-2">
                 Nodejs Request
               </h2>
-              <img src="/img/code2.png" alt="image" />
+              <img src="/img/code2.png" alt="code-2 image" />
             </div>
           </div>
           <div className="xl:w-1/2 md:w-1/2 p-2">
@@ -33,7 +32,7 @@ function DifferentJSON() {
               <h2 className="text-lg text-gray-900 font-medium title-font mb-2">
                 JQuery
               </h2>
-              <img src="/img/code3.png" alt="image" />
+              <img src="/img/code3.png" alt="code-3 image" />
             </div>
           </div>
           <div className="xl:w-1/2 md:w-1/2 p-2">
@@ -41,7 +40,7 @@ function DifferentJSON() {
               <h2 className="text-lg text-gray-900 font-medium title-font mb-2">
                 Java OkHttp
               </h2>
-              <img src="/img/code4.png" alt="image" />
+              <img src="/img/code4.png" alt="code-4 image" />
             </div>
           </div>
         </div>

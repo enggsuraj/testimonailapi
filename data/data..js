@@ -1,3 +1,4 @@
+//STORE IN ARRAY OF OBJECTS
 const testimonailData = [
   {
     id: 1,

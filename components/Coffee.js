@@ -13,7 +13,10 @@ function Coffee() {
             using the page.
           </p>
 
-          <Link href="https://www.buymeacoffee.com/blogtheorem">
+          <Link
+            href="https://www.buymeacoffee.com/blogtheorem"
+            aria-label="buymeacoffee"
+          >
             <img
               src="/img/coffee.png"
               className=" w-48 cursor-pointer md:text-left pt-10"
