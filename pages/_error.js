@@ -1,3 +1,4 @@
+// ERROR PAGE
 function Error({ statusCode }) {
   return (
     <p>
