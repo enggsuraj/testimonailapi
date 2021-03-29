@@ -7,14 +7,14 @@
 
 Tired of copy and pasting lorem user's testimonial text which doesn't give the feel of authenticity, don't worry try testimonial API to get dummy testimonial data that includes :
 
--  User ID
--  Name
--  Location
--  Designation
--  Avatar
--  Message
--  Rating
--  Audio
+- User ID
+- Name
+- Location
+- Designation
+- Avatar
+- Message
+- Rating
+- Audio
 
 #### Contain upto 10 users data, simple use a GET HTTP request on the link. Individual of one data can be fetch using respective ID.
 
