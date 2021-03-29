@@ -1,11 +1,14 @@
 import React from "react";
 
+// TESTIMONIAL SECTION
 function Testimonial() {
+  // USING PURE JS OR USE REF
   const playAudio = () => {
     const audioEl = document.getElementsByClassName("audio-element")[0];
     audioEl.play();
   };
 
+  // MALE AUDIO PAUSE
   const pauseAudio = () => {
     const audioEl = document.getElementsByClassName("audio-element")[0];
     audioEl.pause();

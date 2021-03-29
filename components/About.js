@@ -1,5 +1,6 @@
 import React from "react";
 
+// ABOUT SECTION
 function About() {
   return (
     <section className="text-gray-600 body-font md:mt-10 sm:mt-2">
