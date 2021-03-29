@@ -1,7 +1,7 @@
 # testimonialapi
 
 [![React Badge](http://img.shields.io/badge/Powered%20By-React-blue?style=for-the-badge&logo=react)](https://reactjs.org/)
-[![Website Badge](https://img.shields.io/badge/Visit-Now-green?style=for-the-badge&logo=vercel)](https://450dsa.com/).
+[![Website Badge](https://img.shields.io/badge/Visit-Now-green?style=for-the-badge&logo=vercel)](https://testimonialapi.toolcarton.com//).
 
 ## Overview 👀
 
@@ -32,7 +32,7 @@ Based on ID from 1 to 10 get a particular user data. Note here odd ID are male p
 
 - [React] - **Frontend Framework**
 - [Tailwind CSS] - **CSS Framework**
-- [Nextjs] - ** SSR **
+- [Nextjs] - **SSR**
 
 ## Getting Started
 
@@ -45,8 +45,3 @@ yarn dev
 ```
 
 [![OPEN-PR](https://img.shields.io/badge/Open%20For-PR-orange?style=for-the-badge&logo=github)](https://github.com/AsishRaju/450-DSA)
-
-
-
-
-
