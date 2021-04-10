@@ -59,7 +59,7 @@ const testimonailData = [
     designation: "Developer",
     avatar: "https://testimonialapi.toolcarton.com/avatar/5.jpg",
     message:
-      "Best company I have ever dealt with online! Quick delivery and excellent customer service. Will definetly upgrade the service.",
+      "Best company I have ever deal with online! Quick delivery and excellent customer service. Will definetly upgrade the service.",
     lorem:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non fringilla leo. Phasellus dui erat, ultrices sollicitudin ante quis, convallis varius odio. Quisque sed tristique ante.",
     rating: 4.5,
