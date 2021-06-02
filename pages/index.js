@@ -40,7 +40,12 @@ export default function Home() {
         <meta name="language" content="English" />
         <meta name="author" content="blogtheorem" />
         <link rel="canonical" href="testimonialapi.toolcarton.com" />
-        <link rel="icon" type="image/png" sizes="16x16" href="/img/logo.svg" />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="/img/testimonial.svg"
+        />
 
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="en_US"></meta>
@@ -78,6 +83,22 @@ export default function Home() {
         <meta
           property="twitter:image"
           content="https://testimonialapi.toolcarton.com/img/banner.png"
+        />
+
+        {/* GOOGLE ANALYTICS */}
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-WXFE0XNSZQ"
+        ></script>
+
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+            
+              gtag('config', 'G-WXFE0XNSZQ');`,
+          }}
         />
       </Head>
 
