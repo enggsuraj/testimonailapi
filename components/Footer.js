@@ -65,7 +65,7 @@ function Footer() {
               <img
                 className="mx-2"
                 src="/img/rapidapi-logo.png"
-                alt="testimonialapi - Customer Testimonial JSON data in one fetch | Product Hunt"
+                alt="Rapid API testimonialapi - Customer Testimonial JSON data in one fetch | Product Hunt"
               />
             </a>
           </span>
