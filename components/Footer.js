@@ -57,6 +57,17 @@ function Footer() {
                 alt="testimonialapi - Customer Testimonial JSON data in one fetch | Product Hunt"
               />
             </a>
+            <a
+              href="https://rapidapi.com/info.blogtheorem/api/testimonial/"
+              target="_blank"
+              aria-label="producthunt"
+            >
+              <img
+                className="mx-2"
+                src="/img/rapidapi-logo.png"
+                alt="testimonialapi - Customer Testimonial JSON data in one fetch | Product Hunt"
+              />
+            </a>
           </span>
         </div>
       </div>
